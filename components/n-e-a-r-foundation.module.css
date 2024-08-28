@@ -1,0 +1,44 @@
+.a,
+.nearfoundation1Icon {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+}
+.nearfoundation1Icon {
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  cursor: pointer;
+}
+.a {
+  margin: 0;
+  left: -5.47%;
+  font-size: inherit;
+  text-decoration: underline;
+  letter-spacing: -0.01em;
+  line-height: 28px;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  z-index: 1;
+}
+.nearfoundation1 {
+  height: 41.2px;
+  width: 100.5px;
+  position: relative;
+  text-align: center;
+  font-size: var(--aipgf-manrope-bold-20-size);
+  color: var(--color-gray-300);
+  font-family: var(--githubcom-sf-pro-text-medium-12);
+}
+@media screen and (max-width: 450px) {
+  .a {
+    font-size: var(--aipgf-manrope-light-16-size);
+    line-height: 22px;
+  }
+}

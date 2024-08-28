@@ -1,0 +1,210 @@
+.eligibilityAssesmentAgent {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 143%;
+  font-weight: 700;
+  font-family: inherit;
+}
+.uiwreloadIcon {
+  width: 24px;
+  height: 24px;
+  position: relative;
+}
+.agentDetails,
+.uiwreloadWrapper {
+  display: flex;
+  align-items: flex-start;
+}
+.uiwreloadWrapper {
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-base-5) 0 0;
+}
+.agentDetails {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.theAiWill {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-lg);
+  line-height: 26px;
+  font-weight: 400;
+  font-family: inherit;
+}
+.agentDetailsParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-4xs);
+}
+.eligibilityAssesment01Child {
+  border: 1.5px solid var(--aipgf-geyser);
+  background-color: transparent;
+  height: 282px;
+  width: auto;
+  outline: 0;
+  align-self: stretch;
+  position: relative;
+  border-radius: 7.36px;
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.border {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-9980xl);
+  background-color: var(--aipgf-science-blue);
+  border: 1px solid var(--aipgf-science-blue);
+  box-sizing: border-box;
+}
+.checkEligibility {
+  flex: 1;
+  position: relative;
+  font-size: var(--aipgf-manrope-light-16-size);
+  line-height: 24px;
+  text-transform: capitalize;
+  font-weight: 700;
+  font-family: var(--text-sm-regular);
+  color: var(--aipgf-white);
+  text-align: center;
+  text-decoration: none;
+  z-index: 1;
+}
+.border1,
+.button {
+  border-radius: var(--br-9980xl);
+  box-sizing: border-box;
+}
+.button {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-xs) var(--padding-lgi);
+  background-color: transparent;
+  flex: 1;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  min-width: 111px;
+  white-space: nowrap;
+}
+.border1 {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border: 1px solid var(--aipgf-science-blue);
+}
+.attachFile {
+  flex: 1;
+  position: relative;
+  font-size: var(--aipgf-manrope-light-16-size);
+  line-height: 24px;
+  text-transform: capitalize;
+  font-family: var(--text-sm-regular);
+  color: var(--aipgf-science-blue);
+  text-align: center;
+  z-index: 1;
+}
+.button1,
+.eligibilityButton {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.button1 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-xs) var(--padding-5xl);
+  background-color: transparent;
+  width: 147px;
+  border-radius: var(--br-9980xl);
+  overflow: hidden;
+  flex-shrink: 0;
+  box-sizing: border-box;
+  position: relative;
+  white-space: nowrap;
+}
+.eligibilityButton {
+  width: 331px;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  gap: var(--gap-smi);
+  max-width: 100%;
+}
+.eligibilityAssesment01,
+.eligibilityAssesment01Wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.eligibilityAssesment01 {
+  flex: 1;
+  border-radius: var(--br-3xs);
+  background-color: var(--aipgf-white);
+  border: 1px solid var(--aipgf-geyser);
+  overflow: hidden;
+  flex-direction: column;
+  padding: var(--padding-11xl) var(--padding-19xl) var(--padding-9xl);
+  gap: var(--gap-5xl);
+  min-width: 390px;
+  max-width: 1280px;
+}
+.eligibilityAssesment01Wrapper {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 var(--padding-33xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-21xl);
+  color: var(--copyuicom-black);
+  font-family: var(--githubcom-sf-pro-text-medium-12);
+}
+@media screen and (max-width: 1325px) {
+  .eligibilityAssesment01 {
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 800px) {
+  .eligibilityAssesmentAgent {
+    font-size: var(--font-size-13xl);
+    line-height: 46px;
+  }
+  .eligibilityAssesment01 {
+    padding-top: var(--padding-xl);
+    padding-bottom: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .eligibilityAssesment01Wrapper {
+    padding-bottom: var(--padding-15xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .eligibilityAssesmentAgent {
+    font-size: var(--font-size-5xl);
+    line-height: 34px;
+  }
+}

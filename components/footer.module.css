@@ -1,0 +1,240 @@
+.vectorIcon {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  min-height: 16px;
+}
+.socialIcon,
+.socialIcon1 {
+  height: 15px;
+  width: 20px;
+  position: relative;
+}
+.socialIcon1 {
+  height: 16px;
+  width: 19.1px;
+  min-height: 16px;
+}
+.socials {
+  flex: 0.2311;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--padding-xl) var(--padding-333xl) var(--padding-xl)
+    var(--padding-5xs);
+  box-sizing: border-box;
+  min-width: 301px;
+  max-width: 100%;
+  gap: var(--gap-xl);
+}
+.partOfThe {
+  position: relative;
+  line-height: 25px;
+  font-weight: 800;
+  display: inline-block;
+  min-width: 90px;
+}
+.potlockIcon {
+  height: 17.7px;
+  width: 92.3px;
+  position: relative;
+}
+.openFundingStack {
+  position: relative;
+  line-height: 24.99px;
+  font-weight: 800;
+}
+.fundingStack {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 15.5px 0;
+  box-sizing: border-box;
+  gap: var(--gap-6xs-4);
+  max-width: 100%;
+}
+.label {
+  width: 36px;
+  position: relative;
+  line-height: 20px;
+  font-weight: 500;
+  display: none;
+}
+.content {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  background-color: transparent;
+  height: 32px;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  font-family: var(--aipgf-manrope-semibold-1356);
+  font-size: var(--aipgf-manrope-regular-1538-size);
+  color: var(--color-dimgray-200);
+  min-width: 149px;
+}
+.helpIcon {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  display: none;
+}
+.hintText,
+.input {
+  align-self: stretch;
+}
+.input {
+  box-shadow: var(--shadow-xs);
+  border-radius: var(--br-5xs);
+  background-color: var(--aipgf-white);
+  border: 1px solid var(--gray-300);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) var(--padding-mini);
+  gap: var(--gap-5xs);
+}
+.hintText {
+  position: relative;
+  line-height: 20px;
+  color: var(--gray-600);
+  display: none;
+}
+.inputField,
+.inputFieldBase {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.inputFieldBase {
+  align-self: stretch;
+  gap: var(--gap-7xs);
+}
+.inputField {
+  flex: 1;
+  border-radius: var(--br-8xl);
+  overflow: hidden;
+  min-width: 182px;
+}
+.text {
+  position: relative;
+  font-size: var(--aipgf-manrope-semibold-1356-size);
+  line-height: 40px;
+  font-weight: 600;
+  font-family: var(--aipgf-manrope-semibold-1356);
+  color: var(--aipgf-white);
+  text-align: center;
+  display: inline-block;
+  min-width: 66px;
+}
+.button {
+  height: 24px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0 var(--padding-9xs);
+  box-sizing: border-box;
+}
+.button,
+.emailCapture,
+.tag {
+  justify-content: center;
+}
+.tag {
+  cursor: pointer;
+  border: 1px solid var(--aipgf-white);
+  padding: var(--padding-7xs) var(--padding-3xs);
+  background-color: transparent;
+  width: 97px;
+  border-radius: var(--br-5xl);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.emailCapture {
+  width: 393px;
+  align-items: flex-start;
+  gap: var(--gap-base);
+}
+.emailCapture,
+.footer,
+.footer1,
+.subscribe {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+}
+.subscribe {
+  flex: 1;
+  align-items: center;
+  justify-content: flex-end;
+  padding: var(--padding-5xs);
+  box-sizing: border-box;
+  min-width: 301px;
+  text-align: left;
+  font-size: var(--text-sm-regular-size);
+  color: var(--gray-700);
+  font-family: var(--text-sm-regular);
+}
+.footer,
+.footer1 {
+  justify-content: flex-start;
+}
+.footer1 {
+  flex: 1;
+  background-color: var(--aipgf-shark);
+  align-items: center;
+  padding: var(--padding-12xl) var(--padding-61xl);
+  box-sizing: border-box;
+  row-gap: 20px;
+}
+.footer {
+  align-self: stretch;
+  align-items: flex-start;
+  text-align: center;
+  font-size: var(--font-size-base-7);
+  color: var(--aipgf-white);
+  font-family: var(--aipgf-manrope-semibold-1356);
+}
+@media screen and (max-width: 1325px) {
+  .socials,
+  .subscribe {
+    flex: 1;
+  }
+  .footer1 {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 800px) {
+  .vectorIcon {
+    width: 100%;
+  }
+  .socials {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .footer1 {
+    padding-left: var(--padding-21xl);
+    padding-right: var(--padding-21xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .socials {
+    padding-right: var(--padding-157xl);
+    box-sizing: border-box;
+  }
+  .emailCapture,
+  .fundingStack {
+    flex-wrap: wrap;
+  }
+}

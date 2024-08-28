@@ -1,0 +1,110 @@
+.coa2p26tftcz9cdq40fyggu2wqpngIcon {
+  height: 406.5px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+}
+.container,
+.container1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.container1 {
+  flex: 1;
+}
+.container {
+  align-self: stretch;
+}
+.fundingInnovationCommunity {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 34px;
+  font-weight: 700;
+  font-family: inherit;
+}
+.heading3 {
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 0 var(--padding-12xs-8);
+}
+.container3,
+.container4,
+.heading3 {
+  display: flex;
+  justify-content: flex-start;
+}
+.container4 {
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: calc(100% - 0px);
+  flex-shrink: 0;
+}
+.container3 {
+  align-self: stretch;
+  height: 34px;
+  flex-direction: row;
+  align-items: center;
+  padding: 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.joinACollaborative {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  line-height: 30px;
+  font-weight: 400;
+  font-family: inherit;
+}
+.container2,
+.container5,
+.link {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.container5 {
+  align-self: stretch;
+  font-size: var(--aipgf-manrope-bold-20-size);
+  color: var(--color-dimgray-300);
+  font-family: var(--aipgf-manrope-semibold-1356);
+}
+.container2,
+.link {
+  box-sizing: border-box;
+  overflow: hidden;
+  max-width: 100%;
+}
+.container2 {
+  align-self: stretch;
+  padding: var(--padding-base) var(--padding-21xl) var(--padding-56xl-5);
+  gap: var(--gap-xs);
+}
+.link {
+  flex: 1;
+  border-radius: var(--br-5xl);
+  background-color: var(--aipgf-white);
+  border: 1px solid var(--aipgf-geyser);
+  padding: 0 var(--padding-2xs);
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-gray-200);
+  font-family: var(--githubcom-sf-pro-text-medium-12);
+}
+@media screen and (max-width: 450px) {
+  .fundingInnovationCommunity {
+    font-size: var(--font-size-lgi);
+    line-height: 27px;
+  }
+  .joinACollaborative {
+    font-size: var(--aipgf-manrope-light-16-size);
+    line-height: 24px;
+  }
+}

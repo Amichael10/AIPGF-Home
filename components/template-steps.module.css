@@ -1,0 +1,124 @@
+.templateSteps1 {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 75px;
+}
+.hidden {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs-8) 0 0;
+}
+.draftProposal {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -0.02em;
+  line-height: 48px;
+  font-weight: 400;
+  font-family: inherit;
+}
+.template1 {
+  text-decoration: underline;
+}
+.template {
+  color: inherit;
+}
+.draftYourProposalContainer {
+  position: relative;
+  font-size: var(--aipgf-manrope-light-16-size);
+  line-height: 24px;
+  font-family: var(--aipgf-manrope-semibold-1356);
+}
+.draftContainer,
+.proposalStep {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.proposalStep {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-3xs-4);
+  min-width: 464px;
+  font-size: var(--font-size-17xl);
+  color: var(--copyuicom-black);
+}
+.draftContainer {
+  width: 845.2px;
+  flex-direction: row;
+  gap: var(--gap-37xl-2);
+}
+.plusIcon {
+  width: 32px;
+  height: 32px;
+  position: relative;
+}
+.navigationIcons {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-3xl-6);
+}
+.container,
+.templateSteps {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: var(--gap-xl);
+}
+.container {
+  flex: 1;
+  overflow: hidden;
+  align-items: flex-end;
+  padding: var(--padding-lg-2) var(--padding-9xl) var(--padding-4xl)
+    var(--padding-13xl);
+}
+.templateSteps {
+  align-self: stretch;
+  border: 1px solid var(--aipgf-geyser);
+  align-items: flex-start;
+  padding: var(--padding-mid) var(--padding-10xl) var(--padding-2xl)
+    var(--padding-12xl);
+  text-align: left;
+  font-size: var(--font-size-41xl);
+  color: var(--aipgf-shark);
+  font-family: var(--githubcom-sf-pro-text-medium-12);
+}
+@media screen and (max-width: 1125px) {
+  .container,
+  .draftContainer,
+  .templateSteps {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 800px) {
+  .templateSteps1 {
+    font-size: var(--font-size-29xl);
+  }
+  .draftProposal {
+    font-size: var(--font-size-10xl);
+    line-height: 38px;
+  }
+  .proposalStep {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .templateSteps1 {
+    font-size: var(--font-size-17xl);
+  }
+  .draftProposal {
+    font-size: var(--font-size-3xl);
+    line-height: 29px;
+  }
+  .draftContainer {
+    gap: var(--gap-9xl);
+  }
+}

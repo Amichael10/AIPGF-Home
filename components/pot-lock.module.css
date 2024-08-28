@@ -1,0 +1,44 @@
+.a,
+.potlockIcon {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.potlockIcon {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.a {
+  margin: 0;
+  top: calc(50% - 18.75px);
+  left: calc(50% - 103.05px);
+  font-size: inherit;
+  text-decoration: underline;
+  letter-spacing: -0.01em;
+  line-height: 28px;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  z-index: 1;
+}
+.potlock {
+  align-self: stretch;
+  height: 37.5px;
+  position: relative;
+  cursor: pointer;
+  text-align: center;
+  font-size: var(--aipgf-manrope-bold-20-size);
+  color: var(--color-gray-300);
+  font-family: var(--githubcom-sf-pro-text-medium-12);
+}
+@media screen and (max-width: 450px) {
+  .a {
+    font-size: var(--aipgf-manrope-light-16-size);
+    line-height: 22px;
+  }
+}

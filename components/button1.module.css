@@ -1,0 +1,33 @@
+.cancel {
+  position: relative;
+  font-size: var(--font-size-5xl);
+  line-height: 143%;
+  font-weight: 500;
+  font-family: var(--githubcom-sf-pro-text-medium-12);
+  color: var(--base-base-black);
+  text-align: left;
+  display: inline-block;
+  min-width: 87px;
+}
+.button {
+  cursor: pointer;
+  border: 1px solid var(--neutral-neutral-400);
+  padding: var(--padding-2xs) var(--padding-22xl);
+  background-color: var(--aipgf-white);
+  border-radius: var(--br-23xl);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.button:hover {
+  background-color: var(--color-gainsboro-100);
+  border: 1px solid var(--color-slategray);
+  box-sizing: border-box;
+}
+@media screen and (max-width: 450px) {
+  .cancel {
+    font-size: var(--font-size-lgi);
+    line-height: 27px;
+  }
+}

@@ -1,0 +1,31 @@
+.telegramlogoIcon {
+  height: 24.5px;
+  width: 24.5px;
+  position: relative;
+}
+.text {
+  position: relative;
+  text-decoration: underline;
+  line-height: 30px;
+  font-weight: 700;
+  color: inherit;
+  display: inline-block;
+  min-width: 87px;
+}
+.buttonBase {
+  border-radius: 47.86px;
+  background-color: var(--aipgf-science-blue);
+  border: 1.2px solid var(--aipgf-white);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-2xs) var(--padding-2xl) var(--padding-3xs);
+  gap: var(--gap-3xs-8);
+  white-space: nowrap;
+  text-align: left;
+  font-size: var(--font-size-lgi-6);
+  color: var(--aipgf-white);
+  font-family: var(--githubcom-sf-pro-text-medium-12);
+}

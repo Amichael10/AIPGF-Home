@@ -1,0 +1,201 @@
+.logoIcon {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.rfpProposalGenerator {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 150%;
+  font-weight: 700;
+  font-family: inherit;
+}
+.title {
+  align-self: stretch;
+  height: 69px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-9xs);
+}
+.frameChild {
+  width: 233.67%;
+  height: 927.68%;
+  position: absolute;
+  margin: 0 !important;
+  top: -68.26%;
+  right: -109.93%;
+  bottom: -759.42%;
+  left: -23.74%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: contain;
+  display: none;
+  z-index: 1;
+}
+.titleParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+}
+.loremIpsumDolor {
+  flex: 1;
+  position: relative;
+  line-height: 24px;
+  font-weight: 300;
+  display: -webkit-inline-box;
+  align-items: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  max-width: 100%;
+}
+.link,
+.link1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.link1 {
+  flex: 1;
+  overflow: hidden;
+  padding: 0 var(--padding-9xs) var(--padding-4xl) 0;
+  flex-shrink: 0;
+}
+.link {
+  align-self: stretch;
+  height: 70px;
+  padding: var(--padding-9xs-5) 0 0;
+  font-size: var(--aipgf-manrope-light-16-size);
+}
+.span {
+  font-weight: 300;
+}
+.byBorisnearContainer {
+  position: relative;
+  line-height: 24px;
+}
+.container,
+.link2 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.link2 {
+  overflow: hidden;
+}
+.container {
+  font-size: var(--communityintercomcom-manrope-regular-1389-size);
+}
+.icon1,
+.pencilsimplelineIcon {
+  width: 16px;
+  height: 16px;
+  position: relative;
+  z-index: 0;
+}
+.icon1 {
+  height: 1px;
+  position: absolute;
+  margin: 0 !important;
+  top: 16px;
+  left: 0;
+  z-index: 1;
+}
+.icon,
+.text {
+  position: relative;
+}
+.icon {
+  display: none;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.text {
+  display: inline-block;
+  min-width: 23px;
+}
+.proposal,
+.proposalMetadata,
+.proposalMetadataWrapper,
+.tag {
+  box-sizing: border-box;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.tag {
+  width: 47px;
+  border-radius: var(--br-5xl);
+  background-color: var(--aipgf-white);
+  border: 1px solid var(--aipgf-shark);
+  flex-direction: row;
+  padding: var(--padding-10xs) var(--padding-2xs);
+  gap: var(--gap-10xs);
+}
+.proposal,
+.proposalMetadata,
+.proposalMetadataWrapper {
+  max-width: 100%;
+}
+.proposalMetadata {
+  width: 350px;
+  flex-direction: row;
+  padding: var(--padding-11xs) 0;
+  gap: var(--gap-5xs);
+}
+.proposal,
+.proposalMetadataWrapper {
+  overflow: hidden;
+}
+.proposalMetadataWrapper {
+  align-self: stretch;
+  border-radius: var(--br-5xs);
+  background-color: var(--aipgf-aqua-haze-aqua-haze-aqua-haze);
+  flex-direction: row;
+  padding: var(--padding-8xs-2) var(--padding-base) var(--padding-6xs-8);
+  text-align: center;
+  font-size: var(--aipgf-manrope-regular-12-size);
+}
+.proposal {
+  border-radius: var(--br-7xs);
+  background-color: var(--aipgf-white);
+  border: 1px solid var(--aipgf-geyser);
+  flex-direction: column;
+  padding: var(--padding-3xl) var(--padding-2xs) var(--padding-3xs);
+  gap: var(--gap-mini);
+  text-align: left;
+  font-size: var(--aipgf-manrope-bold-20-size);
+  color: var(--aipgf-shark);
+  font-family: var(--aipgf-manrope-semibold-1356);
+}
+@media screen and (max-width: 450px) {
+  .rfpProposalGenerator {
+    font-size: var(--aipgf-manrope-light-16-size);
+    line-height: 24px;
+  }
+  .proposalMetadata,
+  .proposalMetadataWrapper {
+    flex-wrap: wrap;
+  }
+  .proposal {
+    gap: var(--gap-mid);
+  }
+}

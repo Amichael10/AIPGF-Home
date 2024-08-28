@@ -1,0 +1,11 @@
+.button {
+  border-radius: 9.82px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: var(--font-size-lgi-6);
+  color: var(--aipgf-white);
+  font-family: var(--githubcom-sf-pro-text-medium-12);
+}
